@@ -20,7 +20,7 @@ function addGo(e){
     goDis.classList.add(st)
     e.target.append(goDis)
     st = st === "circle"?"cross":"circle"
-    text.textContent=st+" goes now."
+    text.textContent=st+" goes now "
     e.target.removeEventListener("click",addGo)
     wins()
 }
