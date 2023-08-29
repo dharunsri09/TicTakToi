@@ -3,7 +3,7 @@ const text=document.querySelector('#textG')
 const cell=["1","2","3","4","5","6","7","8","9"]
 
 let st = "circle";
-text.textContent="Circle goes first"
+text.textContent="Circle goes first "
 function createBoard(){
     cell.forEach((cell,index)=>{
        const cells= document.createElement('div')
